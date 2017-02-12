@@ -1,0 +1,25 @@
+{
+  "name": "webpack-hot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "babel-node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-loader": "^6.2.10",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "koa-webpack": "^0.2.1",
+    "source-map-loader": "^0.1.6",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "koa": "^2.0.0"
+  }
+}
